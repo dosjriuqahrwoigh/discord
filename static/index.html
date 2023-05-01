@@ -80,6 +80,7 @@
           onclick="toggleId('ctx');document.getElementById(parseInt(ctxTab)+1).contentWindow.location.reload()">Reload</a>
       </div>
       <div class='chrome-tabs chrome-tabs-dark-theme' id="tabsmain" style='--tab-content-margin: 9px'>
+	<div class='chrome-tabs-content' id='0'>
         </div>
         <div class='chrome-tabs-bottom-bar'></div>
         <style>
@@ -97,7 +98,7 @@
         </style>
       </div>
       <button style='margin-left:0px;' class='material-icons chrome-tab' data-add-tab id='createTab'
-        onclick='newTab("ht://newtab")'>Skydiver_Proxyy</button>
+        onclick='newTab("ht://newtab")'>Skydiver_Proxy</button>
       <div class='mock-browser-content'>
         <button id='urlbutton'
           onclick='document.getElementById(getActiveFrameId()).src = getBack(getActiveFrameId())'><svg
