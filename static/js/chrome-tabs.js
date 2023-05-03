@@ -30,9 +30,7 @@
     return closestIndex;
   };
 
-  var tabC = 0;
-  const defaultTabProperties = {
-    title: "New Tab",
+  var tabC = 1;
     favicon: false,
   };
 
