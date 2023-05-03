@@ -31,6 +31,7 @@
   };
 
   var tabC = 1;
+    const defaultTabProperties = {
     favicon: false,
   };
 
