@@ -146,6 +146,7 @@ activeTabBackgroundColor = #fff
     &[is-mini][active] .chrome-tab-favicon
       display none
 
+ .chrome-tab-title
       flex 1
       vertical-align top
       overflow hidden
@@ -155,18 +156,18 @@ activeTabBackgroundColor = #fff
       -webkit-mask-image linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) calc(100% - 24px), transparent)
       mask-image linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) calc(100% - 24px), transparent)
 
-    &[is-small] 
+    &[is-small] .chrome-tab-title
       margin-left 0
 
-    .chrome-tab-favicon
+    .chrome-tab-favicon + .chrome-tab-title
     &[is-small] .chrome-tab-favicon + .chrome-tab-title
       margin-left 8px
 
-    &[is-smaller] .chrome-tab-favicon
-    &[is-mini]
+    &[is-smaller] .chrome-tab-favicon + .chrome-tab-title
+    &[is-mini] .chrome-tab-title
       display none
 
-    &[active]
+    &[active] .chrome-tab-title
       color #45474a
 
     .chrome-tab-drag-handle
