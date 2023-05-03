@@ -224,6 +224,7 @@
               </div>
               <div class="chrome-tab-content">
                 <div class="chrome-tab-favicon" ></div>
+                <div class="chrome-tab-title ${tabC}"></div>
                 <div class="chrome-tab-drag-handle"></div>
                 <div class="chrome-tab-close" onclick="document.getElementById(${tabC}).remove()"></div>
               </div>
