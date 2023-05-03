@@ -30,7 +30,7 @@
     return closestIndex;
   };
 
-  var tabC = 1;
+  var tabC = 0;
   const defaultTabProperties = {
     title: "New Tab",
     favicon: false,
@@ -224,7 +224,7 @@
               </div>
               <div class="chrome-tab-content">
                 <div class="chrome-tab-favicon" ></div>
-                <div class="${tabC}"></div>
+                <div class="chrome-tab-title ${tabC}"></div>
                 <div class="chrome-tab-drag-handle"></div>
                 <div class="chrome-tab-close" onclick="document.getElementById(${tabC}).remove()"></div>
               </div>
