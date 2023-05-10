@@ -1,34 +1,17 @@
- const content = document.getElementById('content');
-        const passwordKey = 'password';
-
-        function hideContent() {
-            content.style.display = 'none';
-        }
-
-        function showContent() {
-            content.style.display = 'block';
-        }
-
-        function checkLocalStorage() {
-            const storedPassword = localStorage.getItem(passwordKey);
-            if (storedPassword === '1234') {
-                showContent();
-                return true;
-            }
-            return false;
-        }
-
-        function askForPassword() {
-            const password = prompt('Enter the password:');
-            if (password === '1234') {
-                localStorage.setItem(passwordKey, password);
-                showContent();
+ var password = window.localStorage.getItem('password');
+        var validPassword = "1234";
+        if (password && password === validPassword) {
+            document.body.style.display = 'block';
+        } else {
+            var input = prompt('Enter the password:');
+            if (input === validPassword) {
+                window.localStorage.setItem('password', input);
+                document.body.style.display = 'block';
             } else {
-                alert('Incorrect password. ');
+                alert('Invalid password.');
+                window.location.href = 'https://www.google.com';
             }
         }
-
-        if (!checkLocalStorage()) {
-            hideContent();
-            askForPassword();
+        if (document.body.style.display !== 'block') {
+            document.body.style.display = 'none';
         } 
