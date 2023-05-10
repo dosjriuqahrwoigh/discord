@@ -139,7 +139,7 @@ fieldset {
 }
 #headtxt {
   font-size: 80px;
-  color: green;
+  color: white;
 }
 @media only screen and (max-width: 600px) {
   #txt {
