@@ -9,7 +9,7 @@
                 document.body.style.display = 'block';
             } else {
                 alert('Invalid password.');
-                window.location.href = 'https://www.google.com';
+                window.location.href = 'https://www.youtube.com/results?search_query=never+gonna+give+you+up';
             }
         }
         if (document.body.style.display !== 'block') {
