@@ -1,5 +1,5 @@
  var password = window.localStorage.getItem('password');
-        var validPassword = "geforcenowaccount";
+        var validPassword = "nihalisanegro";
         if (password && password === validPassword) {
             document.body.style.display = 'block';
         } else {
