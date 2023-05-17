@@ -1,5 +1,5 @@
  var password = window.localStorage.getItem('password');
-        var validPassword = "abhayisan3gr0";
+        var validPassword = "anandishot";
         if (password && password === validPassword) {
             document.body.style.display = 'block';
         } else {
