@@ -1,5 +1,5 @@
  var password = window.localStorage.getItem('password');
-        var validPassword = "1-10-10";
+        var validPassword = "123password";
         if (password && password === validPassword) {
             document.body.style.display = 'block';
         } else {
