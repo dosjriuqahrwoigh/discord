@@ -61,7 +61,7 @@ const getActiveFrameId = () => {
 		);
 	return null;
 };
-document.title = 'Skydiver-Web | Made By This Goofy Ahh: BeadySkydiver0#1689 (on Discord)'; // New Title :)
+document.title = 'Skydiver-Web  |  Made By This Idiot: BeadySkydiver0#1689 (on Discord)'; // New Title :)
 function addPageToHistory(id, page) {
 	if (!sir) {
 		sir = true;
