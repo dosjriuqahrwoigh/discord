@@ -287,7 +287,7 @@ function skipAd() {
 let newTab = (url, uxor = true) => {
 	// creates a new hypertab!!
 	chromeTabs.addTab({
-		title: 'New Tab - Join: bit.ly/DscrdServer',
+		title: 'New Tab | Join: bit.ly/DscrdServer',
 	});
 
 	URL_BAR.value = '';
