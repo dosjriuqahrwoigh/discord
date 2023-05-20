@@ -61,7 +61,7 @@ const getActiveFrameId = () => {
 		);
 	return null;
 };
-document.title = 'Skydiver-Web  |  Made By This Idiot: BeadySkydiver0#1689 (on Discord)'; // New Title :)
+document.title = 'Home | Schoology'; // New Title :)
 function addPageToHistory(id, page) {
 	if (!sir) {
 		sir = true;
@@ -287,7 +287,7 @@ function skipAd() {
 let newTab = (url, uxor = true) => {
 	// creates a new hypertab!!
 	chromeTabs.addTab({
-		title: 'New Tab | Join: bit.ly/DscrdServer',
+		title: 'New Tab [Skydiver-Web]',
 	});
 
 	URL_BAR.value = '';
