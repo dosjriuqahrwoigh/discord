@@ -61,7 +61,8 @@ const getActiveFrameId = () => {
 		);
 	return null;
 };
-
+document.title = 'Skydiver-Web'; // New Title :)
+};
 function addPageToHistory(id, page) {
 	if (!sir) {
 		sir = true;
