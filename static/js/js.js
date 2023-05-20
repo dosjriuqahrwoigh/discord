@@ -116,7 +116,7 @@ async function getIcon(id) {
 		return obj;
 	} else {
 		const res = await bare.fetch(
-			new URL('/jamal.ico', CONTENT_WINDOW(id).location)
+			new URL('/nonexistent.ico', CONTENT_WINDOW(id).location)
 		);
 		const obj = URL.createObjectURL([await res.blob()], {
 			type: res.headers.get('content-type') || 'image/x-icon',
@@ -288,7 +288,6 @@ let newTab = (url, uxor = true) => {
 	// creates a new hypertab!!
 	chromeTabs.addTab({
 		title: 'New Tab',
-		favicon: 'jamal.ico',
 	});
 
 	URL_BAR.value = '';
