@@ -11,7 +11,7 @@ Password: 123password
 _______________________________________
 This is the future of fast proxies,
 which Skydiver-Web will soon be on Dynamic
-instead of UV, which the interstellar
-team & other developers are working on.
+instead of Ultraviolet, 
+which the interstellarteam & other developers are working on.
 _______________________________________
 Made By: BeadySkydiver0#1689 on Github
