@@ -9,8 +9,8 @@ Website: https://skydiver-web.airlinemeals.net
 
 Password: 123password
 _______________________________________
-This is the future of fast W proxies
-which this will soon be on Dynamic
+This is the future of fast proxies,
+which Skydiver-Web will soon be on Dynamic
 instead of UV, which the interstellar
 team & other developers are working on.
 _______________________________________
