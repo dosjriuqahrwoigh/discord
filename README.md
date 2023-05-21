@@ -12,6 +12,6 @@ _______________________________________
 This is the future of fast proxies,
 which Skydiver-Web will soon be on Dynamic
 instead of Ultraviolet, 
-which the interstellarteam & other developers are working on.
+which the interstellar team & other developers are working on. This will bring 20ms response times.
 _______________________________________
 Made By: BeadySkydiver0#1689 on Github
