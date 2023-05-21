@@ -1,7 +1,7 @@
 # Skydiver-Web
 A deployable version of Skydiver-Web.
 Inspired and sourced from Hypertabs.
-Basically a heavily modified faster version and it's a spinoff called Skydiver-Web.
+Basically a heavily modified faster version and its a spinoff called Skydiver-Web.
 
 125 Commits Later I Finally Finished. 
 
