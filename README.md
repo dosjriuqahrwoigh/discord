@@ -3,7 +3,7 @@ A deployable version of Skydiver-Web.
 Inspired and sourced from Hypertabs.
 Basically a heavily modified faster version and it's a spinoff called Skydiver-Web.
 125 Commits Later I Finally Finished. 
-https://skydiver-web.airlinemeals.net
+Website: https://skydiver-web.airlinemeals.net
 Password: 123password
 _______________________________________
 This is the future of fast W proxies
