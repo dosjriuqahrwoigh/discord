@@ -5,7 +5,7 @@ Basically a heavily modified faster version and its a spinoff called Skydiver-We
 
 125 Commits Later I Finally Finished. 
 
-Website: https://skydiver-web.airlinemeals.net
+Website: https://skydiver-web.mooo.com
 
 Password: 123password
 _______________________________________
