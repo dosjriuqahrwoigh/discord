@@ -263,7 +263,6 @@
       );
       tabProperties = Object.assign({}, defaultTabProperties, tabProperties);
       this.tabContentEl.appendChild(tabEl);
-      this.setTabCloseEventListener(tabEl);
       this.updateTab(tabEl, tabProperties);
       this.emit("tabAdd", { tabEl });
 
