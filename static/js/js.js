@@ -290,7 +290,7 @@ let newTab = (url, uxor = true) => {
 		title: 'New Tab',
 	});
 
-	URL_BAR.value = '';
+	URL_BAR.value = 'https://nowgg.nl';
 
 	let frameId = tabNum++;
 	let frame = document.createElement('IFRAME');
@@ -360,7 +360,7 @@ document.querySelector('#urlbar').addEventListener('keydown', (event) => {
 		) {
 			URL_BAR.value = ACTIVE_DOCUMENT().baseURI;
 		} else {
-			URL_BAR.value = '';
+			URL_BAR.value = 'https://nowgg.nl';
 		}
 		return;
 	}
@@ -557,4 +557,4 @@ if (localStorage.getItem('ctPins')) {
 let addEl = (a, b, c) =>
 	Object.assign(b.appendChild(document.createElement(a)), c);
 
-newTab('ht://newtab');
+newTab('https://nowgg.nl');
