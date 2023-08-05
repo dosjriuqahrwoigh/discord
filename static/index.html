@@ -76,8 +76,6 @@
           <a class="pointer"
           onclick="toggleId('ctx');AddBookmark(parseInt(ctxTab) + 1);">Bookmark</a>
         <a class="pointer"
-          onclick="toggleId('ctx');chromeTabs.removeTab(document.querySelectorAll('[ifd=\'' + ctxTab + '\']')[0]);document.getElementById(parseInt(ctxTab) + 1).remove()">Close</a>
-        <a class="pointer"
           onclick="toggleId('ctx');document.getElementById(parseInt(ctxTab)+1).contentWindow.location.reload()">Reload</a>
       </div>
       <div class='chrome-tabs chrome-tabs-dark-theme' id="tabsmain" style='--tab-content-margin: 9px'>
@@ -98,8 +96,7 @@
           }
         </style>
       </div>
-      <button style='margin-left:0px;' class='material-icons chrome-tab' data-add-tab id='createTab'
-        onclick='newTab("ht://newtab")'>add</button>
+	    
       <div class='mock-browser-content'>
         <button id='urlbutton'
           onclick='document.getElementById(getActiveFrameId()).src = getBack(getActiveFrameId())'><svg
