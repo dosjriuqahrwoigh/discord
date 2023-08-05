@@ -274,15 +274,6 @@
       this.setupDraggabilly();
     }
 
-    setTabCloseEventListener(tabEl) {
-      tabEl
-        .querySelector(".chrome-tab-close")
-        .addEventListener("click", (_) => {
-          _.stopPropagation();
-          this.removeTab(tabEl);
-        });
-    }
-
     get activeTabEl() {
       return this.hypertabContainer.querySelector(".chrome-tab[active]");
     }
