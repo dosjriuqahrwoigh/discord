@@ -14,7 +14,7 @@
   width: 100%;
   height: 46px;
   padding: 8px 3px 4px 3px;
-  background: #dee1e6;
+  background: #000000;
   border-radius: 5px 5px 0 0;
   overflow: hidden;
 }
@@ -67,7 +67,7 @@
   top: 0;
   bottom: 0;
   width: 1px;
-  background: #a9adb0;
+  background: #000000;
   opacity: 1;
   transition: opacity 0.2s ease;
 }
@@ -95,7 +95,7 @@
   height: 100%;
 }
 .chrome-tabs .chrome-tab .chrome-tab-background > svg .chrome-tab-geometry {
-  fill: #f4f5f6;
+  fill: #000000;
 }
 .chrome-tabs .chrome-tab[active] {
   z-index: 5;
@@ -105,7 +105,7 @@
   .chrome-tab-background
   > svg
   .chrome-tab-geometry {
-  fill: #fff;
+  fill: #000000;
 }
 .chrome-tabs .chrome-tab:not([active]) .chrome-tab-background {
   transition: opacity 0.2s ease;
@@ -165,7 +165,7 @@
   overflow: hidden;
   white-space: nowrap;
   margin-left: 4px;
-  color: #5f6368;
+  color: #000000;
   -webkit-mask-image: linear-gradient(
     90deg,
     #000 0%,
@@ -216,15 +216,15 @@
 }
 @media (hover: hover) {
   .chrome-tabs .chrome-tab .chrome-tab-close:hover {
-    background-color: #e8eaed;
+    background-color: #000000;
   }
   .chrome-tabs .chrome-tab .chrome-tab-close:hover:active {
-    background-color: #dadce0;
+    background-color: #000000;
   }
 }
 @media not all and (hover: hover) {
   .chrome-tabs .chrome-tab .chrome-tab-close:active {
-    background-color: #dadce0;
+    background-color: #000000;
   }
 }
 @media (hover: hover) {
@@ -275,7 +275,7 @@
   height: 4px;
   left: 0;
   width: 100%;
-  background: #fff;
+  background: #000000;
   z-index: 10;
 }
 .chrome-tabs-optional-shadow-below-bottom-bar {
@@ -300,14 +300,14 @@
 
 .urlContainer {
   width: 100%;
-  background-color: #222;
+  background-color: #000000;
   color: #fff;
   height: 50px;
   top: 0;
 }
 
 .frameThing {
-  background-color: #222;
+  background-color: #000000;
   border: hidden;
   border-style: hidden;
 }
@@ -321,7 +321,7 @@
 }
 
 #createTab {
-  color: #fff;
+  color: #000000;
   outline: none;
   height: 30px;
   margin-top: 8px;
@@ -331,5 +331,5 @@
 }
 
 #createTab:hover {
-  color: #e04c4c;
+  color: #000000;
 }
