@@ -175,7 +175,6 @@
       if (toAdd <= window.innerWidth - (WINDOW_PADDING_OFFSET * 2.52) && !(this.tabEls.length >= 12)) {
         document
           .getElementById("createTab")
-          .setAttribute("style", "margin-left:" + (toAdd) + "px");
       } else {
         document
           .getElementById("createTab")
