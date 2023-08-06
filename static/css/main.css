@@ -160,15 +160,15 @@ button:active {
 }
 
 #urlbar {
-  width: 100%;
+  width: 0%;
   border: hidden;
   background: #000000;
-  height: 26px;
+  height: 0px;
   outline: none;
-  color: white;
-  border-radius: 12px;
+  color: black;
+  border-radius: 0px;
   box-sizing: border-box;
-  padding-left: 10px;
+  padding-left: 0px;
   font-size: small;
 }
 
