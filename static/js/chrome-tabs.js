@@ -56,7 +56,6 @@
       this.setupCustomProperties();
       this.setupStyleEl();
       this.setupEvents();
-      this.layoutTabs();
       this.setupDraggabilly();
     }
 
@@ -211,7 +210,6 @@
                 `;
       });
       this.styleEl.innerHTML = styleHTML;
-      this.updateTabButton();
     }
 
     createNewTabEl() {
