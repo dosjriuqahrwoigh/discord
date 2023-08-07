@@ -1,4 +1,4 @@
-now.gg Embedded nowgg.nl Deployable Bypass
+now.gg Deployable Bypass (using nowgg.nl)
 
 All Credit For Bypass Goes To Astroid Go Donate To Them @ https://donate.astroid.gg/
 
