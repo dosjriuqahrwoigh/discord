@@ -1,17 +1,5 @@
-# Skydiver-Web
-A deployable version of Skydiver-Web.
-Inspired and sourced from Hypertabs.
-Basically a heavily modified faster version and its a spinoff called Skydiver-Web.
+Now.GG Embedded nowgg.nl Deployable Bypass
 
-125 Commits Later I Finally Finished. 
+All Credit For Bypass Goes To Astroid Go Donate To Them @ https://donate.astroid.gg/
 
-Website: https://skydiver-web.mooo.com
-
-Password: 123password
-_______________________________________
-This is the future of fast proxies,
-which Skydiver-Web will soon be on Dynamic
-instead of Ultraviolet, 
-which the interstellar team & other developers are working on. This will bring 20ms response times, which improves speed and loading time.
-_______________________________________
-Made By: BeadySkydiver0#1689 on Github
+Made By Skydiver-Web
