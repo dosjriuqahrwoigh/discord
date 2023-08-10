@@ -6,4 +6,4 @@ Credit For Actual Bypass Goes To Astroid Go Donate To Them @ https://donate.astr
 
 I'm not a skid I only claim credit for making the deployable version. 
 
-Made By Skydiver-Web on a Alt Account
+The Deployable Version Was Made As A Side Project.
