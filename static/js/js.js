@@ -162,7 +162,8 @@ async function setInfo(frameId) {
 	let regUrl = CONTENT_WINDOW(frameId).location.href;
 	//grabbing title stuff (corrosion sucks with this)
 	if (
-
+		CONTENT_WINDOW(frameId).document.getElementsByTagName('title')[0].firstChild
+			.textContent
 	)
 		document.getElementsByClassName(frameId)[0].firstChild.data =
 			CONTENT_WINDOW(frameId).document.getElementsByTagName(
