@@ -1,5 +1,9 @@
-now.gg Deployable Bypass (using nowgg.nl)
+now.gg Deployable Bypass 
 
-All Credit For Bypass Goes To Astroid Go Donate To Them @ https://donate.astroid.gg/
+Deployable now.gg Bypass That Can Be Deployed On Any Deploy Service.
 
-Made By Skydiver-Web
+Credit For Actual Bypass Goes To Astroid Go Donate To Them @ https://donate.astroid.gg/
+
+I'm not a skid I only claim credit for making the deployable version. 
+
+Made By Skydiver-Web on a Alt Account
