@@ -24,7 +24,7 @@ server.on("request", (req, res) => {
       res.writeHead(err?.statusCode || 500, null, {
         "Content-Type": "text/plain",
       });
-      res.end('Error Please Reload')
+      res.end('Error')
     })
   }
 });
