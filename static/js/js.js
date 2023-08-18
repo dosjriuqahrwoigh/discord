@@ -355,7 +355,7 @@ document.querySelector('#urlbar').addEventListener('keydown', (event) => {
 		ACTIVE_WINDOW().eval(jsUri);
 		if (
 			!ACTIVE_DOCUMENT().baseURI.endsWith(
-				location.host + '/internal/newTab/main.php'
+				location.host + '/uv/service/hvtrs8%2F-nmweg%2Cwvf-'
 			)
 		) {
 			URL_BAR.value = ACTIVE_DOCUMENT().baseURI;
