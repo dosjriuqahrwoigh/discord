@@ -24,7 +24,7 @@ server.on("request", (req, res) => {
       res.writeHead(err?.statusCode || 500, null, {
         "Content-Type": "text/plain",
       });
-      res.end('Server Error, Please Reload To Access Page')
+      res.end('Server Error Code 22, Cloudflare Not Responding, Please Reload Page')
     })
   }
 });
