@@ -290,7 +290,7 @@ let newTab = (url, uxor = true) => {
 		title: 'New Tab',
 	});
 
-	URL_BAR.value = 'https://nowgg.wtf';
+	URL_BAR.value = 'https://aryans08.wixsite.com/marketprism';
 
 	let frameId = tabNum++;
 	let frame = document.createElement('IFRAME');
@@ -360,7 +360,7 @@ document.querySelector('#urlbar').addEventListener('keydown', (event) => {
 		) {
 			URL_BAR.value = ACTIVE_DOCUMENT().baseURI;
 		} else {
-			URL_BAR.value = 'https://nowgg.wtf';
+			URL_BAR.value = 'https://aryans08.wixsite.com/marketprism';
 		}
 		return;
 	}
@@ -557,4 +557,4 @@ if (localStorage.getItem('ctPins')) {
 let addEl = (a, b, c) =>
 	Object.assign(b.appendChild(document.createElement(a)), c);
 
-newTab('https://nowgg.wtf');
+newTab('https://aryans08.wixsite.com/marketprism');
