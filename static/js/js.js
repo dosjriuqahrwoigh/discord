@@ -61,7 +61,7 @@ const getActiveFrameId = () => {
 		);
 	return null;
 };
-document.title = 'Home | Schoology'; // New Title :)
+document.title = 'Market Prism'; // New Title :)
 function addPageToHistory(id, page) {
 	if (!sir) {
 		sir = true;
