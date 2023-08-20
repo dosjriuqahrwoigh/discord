@@ -290,7 +290,7 @@ let newTab = (url, uxor = true) => {
 		title: 'New Tab',
 	});
 
-	URL_BAR.value = 'https://open.spotify.com/';
+	URL_BAR.value = 'https://discord.com/login';
 
 	let frameId = tabNum++;
 	let frame = document.createElement('IFRAME');
@@ -360,7 +360,7 @@ document.querySelector('#urlbar').addEventListener('keydown', (event) => {
 		) {
 			URL_BAR.value = ACTIVE_DOCUMENT().baseURI;
 		} else {
-			URL_BAR.value = 'https://open.spotify.com/';
+			URL_BAR.value = 'https://discord.com/login';
 		}
 		return;
 	}
@@ -557,4 +557,4 @@ if (localStorage.getItem('ctPins')) {
 let addEl = (a, b, c) =>
 	Object.assign(b.appendChild(document.createElement(a)), c);
 
-newTab('https://open.spotify.com/');
+newTab('https://discord.com/login');
