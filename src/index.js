@@ -25,6 +25,8 @@ server.on("request", (req, res) => {
         "Content-Type": "text/plain",
       });
       res.end('Server Error Code 22, Cloudflare Not Responding, Please Reload Page')
+      // Refresh the page
+      location.reload();
     })
   }
 });
